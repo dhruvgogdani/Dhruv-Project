@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+}
+body
+{
+	margin: 0;
+	background-image: url(img/img.jpg);
+	background-size: cover;
+	background-position: 0 -50px;
+}
+
+.box{
+	/* height: 400px; */
+	width: 700px;
+	/* background-color: #ab8e8e54; */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border-radius: 10px;
+	display: flex;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 75.3);
+}
+
+.left{
+	width: 40%;
+	position: relative;
+	background: linear-gradient(45deg, rgb(0 0 0 / 33%), rgba(235, 188, 188, 0.33));
+
+}
+
+.content{
+	position: absolute;
+	width: 80%;
+	top: 30%;
+	left: 11%;
+	text-align: center;
+	color: #ffe8e8fc;
+
+}
+
+.content>p{
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.content>a{
+	display: inline-block;
+	border: 1px solid#778181;
+	padding: 10px 30px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 10px;
+	color: #ffe8e8fc;
+	letter-spacing: 1px;
+	transition: background color .3s;
+}
+
+.content>a:hover{
+	background-color: #d5b1b1a1;
+}
+
+/***** Right Side  ***/
+.right{
+	width: calc(60% -80px);
+	padding: 40px;
+}
+
+.header{
+	text-align: center;
+}
+
+.header>h2{
+	margin-bottom: 10px;
+	color: #E0F2F1;
+}
+
+.header>p{
+	font-size: 14px;
+	color: lavenderblush;
+}
+
+.content2{
+	margin: 20px 0;
+}
+
+.text{
+	position: relative;
+	margin: 15px 0;
+}
+
+.text>i{
+	color: #ffffff;
+}
+
+.text_box{
+	width: calc(100% - 55px);
+    padding: 15px;
+    border: 1px #ccc solid;
+    background-color: #fff7f714;
+    outline: none;
+    padding-left: 40px;
+	color:white;
+}
+
+.text>span{
+	color: #fffdc4;
+	margin-left: 15px;
+}
+
+.text>a{
+	color: #fffdc4;
+	margin-left: 110px;
+	text-decoration: none;
+	
+}
+
+.text>a:hover{
+	color: #8bff8b;
+	text-decoration: underline;
+}
+
+.sign{
+	padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+	background: linear-gradient(45deg, lavender, transparent);
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.sign:hover{
+	background: linear-gradient(200deg, lavender, transparent);
+}
+
+.social{
+	text-align: center;
+	margin:15px 0;
+	position: relative;
+	color: white;
+}
+
+.social>p{
+	margin-bottom: 10px;
+}
+
+.social>a{
+	text-decoration: none;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px #b7b0b0 solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    margin: 0 5px;
+}
+
+.social>a:hover{
+	background-color: #2bffff5c;
+}

@@ -1,0 +1,48 @@
+.Nav_main{
+    padding: 0.8rem 0rem !important; 
+}
+
+.nav_last i{
+    font-size: 1.4rem;
+    padding: 0 2rem 0 0.8rem ;
+}
+
+.btn1{
+    font-size: 1rem;
+    padding: 0.8rem 1.7rem;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    letter-spacing: 0.2px;
+    margin: 0 0.5rem;
+}
+
+.nav_ul li{
+    padding: 0 0.9rem;
+}
+
+.nav_ul a{
+    font-weight: 600;
+}
+
+.nav-link{
+    color: var(--dark-color) !important;
+}
+.nav_ul a:hover {
+    border-bottom: 2px solid #000;
+    transition: .5s linear;
+}
+.btn1:hover {
+    transition: .3s linear;
+    cursor: pointer;
+    background: #000;
+    color: var(--primary-color);
+}
+.nav_last i:hover {
+    transition: .3s linear;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.nav_ul a:hover, a:focus {
+	outline: none;
+}

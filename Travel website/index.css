@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'josefin Sans', sans-serif;
+}
+
+/************ Header start here  **********/
+header{ 
+    height: 100vh; /** 100vh=1920px ,25vh=480px**/
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url(img/taj-mahal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/******** Navbar start here  *******/
+nav {
+    width: 100%;
+    /* height: 15vh; */
+    padding: 1rem 4rem;
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-transform: uppercase; */
+
+    /* top: 0;
+    position: sticky; */
+    }
+
+nav .logo {
+    /* text-align: center; */
+        width: 50%;
+}
+
+nav .logo span{
+    color: #0cffd0;
+}
+
+nav .menu{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .menu a , .dropdown { 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0 40px
+}
+
+nav .menu a.active{
+    color: #0cffd0;
+}
+
+nav .menu a:hover{
+    color: #0cffd0;
+}
+
+/********* About  Dropdown ******/
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.btn {
+    font-size: 16px;  
+    border: none;
+    font-weight: bold;
+    outline: none;
+    color: white; 
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+ 
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.drop-content .content_link {
+    float: none;
+    color: white;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)); 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.drop-content .content_link:hover {
+    color:#0cffd0;
+}
+.btn:hover{
+    color:#0cffd0;
+}
+.dropdown:hover .drop-content {
+    display: block;
+    
+}
+
+/******** Banner start here *****/
+
+.main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+}
+
+section p{
+    font-size: 25px;
+    color: #eee;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+section .one{
+    background: #fff;
+    color: #000;
+}
+
+section .two{
+    background: #00b894;
+    color: white;
+}
+
+section .one:hover{
+    background-color: #92ebd9;
+}
+
+section .two:hover{
+    background-color: white;
+    color: black;
+}
+
+.change::after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+}
+
+@keyframes changetext{
+    0% { content: "Agra"; }
+    20% { content: "Darjeeling"; }
+    35% { content: "Jaipur"; }
+    60% { content: "Manli"; }
+    80% { content: "Goa"; }
+    100% { content: "Mumbai"; }
+}
+
+
+/******** Content start here *****/
+table{
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+td{
+    padding: 10px;
+}
+
+
+
+/* td img{
+    padding: 10px 10px 0 10px;
+    border-radius: 40px;
+    opacity: 0.95;
+    transition: opacity 0.35s, transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.05,1.05,1);
+    transform: scale3d(1.05,1.05,1);
+    -moz-transform: scale3d(1.05,1.05,1);
+    -o-transform: scale3d(1.05,1.05,1);
+    -ms-transform: scale3d(1.05,1.05,1);
+} */
+
+td img{
+    opacity: 0.6;
+    border-radius: 40px ;
+}
+td img:hover{
+    /* transform: scale3d(1,1,1); */
+    opacity: 1.0;
+} 
+
+
+td h2{
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+td p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/****** grid img gallery  *******/
+#gallery{
+    box-sizing: border-box;
+    background: grey;
+}
+
+.cut{
+    text-align: center;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.column{
+    flex: 20%;
+    padding: 0 5px; 
+ }
+
+ .column p{
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+ } 
+
+ .column img{
+    opacity: 1.0;
+    /* padding: 10px 10px 10px 10px;
+    opacity: 0.95;
+    transition: opacity 0.35s, transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.05,1.05,1);
+    transform: scale3d(1.05,1.05,1);
+    -moz-transform: scale3d(1.05,1.05,1);
+    -o-transform: scale3d(1.05,1.05,1);
+    -ms-transform: scale3d(1.05,1.05,1); */
+ }
+
+ .column img:hover{
+    opacity: 0.6;
+    /* transform: scale3d(1,1,1); */
+ }
+
+ /********** footer ******/
+ .footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    font-weight: bold;
+ }  

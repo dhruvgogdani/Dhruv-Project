@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    font-family: 'Poppins',sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    font-size: 26px;
+}
+
+nav h1{
+    font-size: 50px;
+    color:  rgba(250,10,10,0.801);
+    border-bottom: 5px solid  rgba(250,10,10,0.801);
+    border-radius: 40px;
+    font-family: 'Abrill Fatface', cursive;
+    margin-top: 3px;
+    
+}
+
+ul{
+    display: flex;
+    top: 0;
+    position: sticky;
+}
+
+ul li{
+    list-style-type: none;
+    margin-inline: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: red;
+    border-bottom: 2px solid;
+    border-radius: 40px;
+    /* border-top: 2px solid; */  
+}
+
+.home{
+    color: red;
+    border-bottom: 2px solid;
+    border-radius: 40px;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+}
+
+.head{
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+.head button{
+    width: 170px;
+    height: 47px;
+    background-color:  rgba(250,10,10,0.801);
+    color: white;
+    font-size: 25px;
+    border-radius: 6px;
+}
+
+.head button:hover{
+    background-color: black;
+    border: 3px solid  rgba(250,10,10,0.801);
+    cursor: pointer;
+}
+
+.img img{
+    margin-right: 30px;
+    width: 570px;
+}
+
+
+.master{
+    background-color: white;
+    text-align: center;
+    height: 300px;
+    padding: 10px;
+    margin-top: -28px
+}
+
+h3{
+    padding-top: 10px;
+    font-family: 'Poppins',sans-serif;
+}
+
+p{
+    color: #555;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.fax{
+    font-size: 2em;
+    color: #fd6239;
+    margin: 0em 0 1.5em;
+}
+
+span{
+    color: black;
+}
+
+.read{
+    margin-top: 17px;
+    border: none;
+    outline: none;
+    background: #fd6239;
+    padding: 0.8em 1.8em;
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: .79em;
+    border-radius: 50px;
+}
+
+.read:hover{
+    background-color: #80e380;
+}
+
+
+/*********  About  **********/
+/* .about{
+    background-color: white;
+}
+
+span{
+    color: red;
+} */

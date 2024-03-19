@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+}
+/* Banner */
+.banner {
+    margin: 60px 0 0;
+}
+
+.banner-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-heading {
+    font-size: 69px !important;
+    max-width: 722px !important;
+}
+
+.banner-heading span {
+    font-family: 'Paytone One', sans-serif;
+    color: #FBBC05;
+}
+
+.banner-text p {
+    font-size: 21px;
+    width: 100%;
+    max-width: 498px;
+    font-weight: 100;
+    margin: 35px 0;
+}
+
+.banner-text button {
+    background-color: #FBBC05;
+    border-radius: 58px;
+    border: none;
+    outline: none;
+    padding: 20px 100px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}

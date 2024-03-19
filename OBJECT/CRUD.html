@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Form Data</title>
+</head>
+<body>
+    <form id="myForm">
+        <input type="text" id="name" value="John Doe">
+        <input type="number" id="age" value="30">
+        <button type="button" onclick="updateFormData()">Update Data</button>
+    </form>
+
+    <script>
+        function updateFormData() {
+            // Get a reference to the form
+            var form = document.getElementById("myForm");
+
+            // Retrieve the input field values
+            var name = form.elements["name"].value;
+            var age = form.elements["age"].value;
+
+            // Update the data
+            name = "Jane Doe"; // Example update
+            age = parseInt(age) + 1; // Increment age
+
+            // Set the updated data back into the form fields
+            form.elements["name"].value = name;
+            form.elements["age"].value = age;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+.bg{
+    background-image: url(img/image1.jpg);
+    min-height: 700px;
+
+}
+
+.bg{
+    position: relative;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.cotent{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.border{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.cotent2{
+    color: #777;
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+h3{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color:black;
+}
+
+
+.bg2{
+    background-image: url(img/image2.jpg);
+    min-height: 600px;
+}
+
+.bg2{
+    position: relative;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.twit{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.twit>span{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.sect{
+    color:white;
+    background-color: #282E34;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+
+.bg3{
+    background-image: url(img/image12.jpg);
+    min-height: 600px;
+}
+
+.bg3{
+    position: relative;
+    opacity: 0.75;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.twit2{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.twit2>span{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}

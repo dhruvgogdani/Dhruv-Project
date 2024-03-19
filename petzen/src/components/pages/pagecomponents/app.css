@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+}
+
+/* app */
+.app{
+    width: 100%;
+    max-width: 1440px;
+    margin: 65px auto 0;
+}
+.app_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app_img img{
+    width: 100%;
+    max-width: 578px;
+}
+.app_text{
+    width: 100%;
+    max-width: 646px;
+}
+.app_text p{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #727272;
+    margin: 15px 0 0 0  ;
+}
+.app_text_heading{
+    font-size: 48px !important;
+    font-weight: 600;
+    margin:20px 0 10px 0 !important;
+    color: #000 !important;
+}
+.app_heading{
+    font-size: 23px !important;
+    color: #323232 !important;
+    font-weight: 600;
+    margin: 20px 0 0 0 !important
+    ;
+}
+.app_heading img{
+    padding: 0 10px 0 0;
+}
+.app_text button{
+    margin: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 15px 22px;
+    column-gap: 12px;
+    border: none;
+    outline: none;
+    background: none;
+    box-shadow: 0 -6px 0 #fff, 0 1px 6px rgba(0,0,0, .35);
+    border-radius: 5px;
+}

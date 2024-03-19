@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+}
+/* feedback */
+.feedback{
+    margin: 45px 0 0 0;
+}
+.feedback_heading{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 819px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #323232;
+}
+.feedback_heading span{
+    font-family: 'Paytone One', sans-serif;
+    color: #000;
+}
+.zen{
+    color: #FBBC05 !important;
+}
+.feedback_card_group{
+    margin: 45px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.feedback_card{
+    width: 100%;
+    max-width: 387px;
+    padding: 40px 35px ;
+    border: 1px solid #323232;
+    border-radius: 45px;
+    box-shadow: 0 4px 0 #0D0C22, 0 1px 6px #ffffff;
+}
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.upper_text{
+    margin: 61px 0 0 20px;
+}
+.upper_heading{
+    font-size: 20px !important; 
+    color: #323232 !important;
+    font-weight: 500;
+}
+.upper_text p{
+    font-size: 18px;
+    color: #727272;
+}
+.paw{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.feedback_hr{
+    margin: 28px 0 ;
+    border: 1px solid #323232;
+}
+.lower p{
+    font-size: 18px;
+    color: #727272;
+}

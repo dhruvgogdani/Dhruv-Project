@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+}
+/* Navbar */
+.navbar {
+    margin: 95px 0 0;
+}
+
+.navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Paytone One', sans-serif;
+    color: #000;
+    font-size: 60px;
+}
+
+.logo span {
+    color: #FBBC05;
+}
+
+.menu {
+    width: 100%;
+    max-width: 491px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #323232;
+    font-size: 20px;
+}
+
+.login {
+    width: 100%;
+    max-width: 204px;
+    text-align: center;
+}
+
+.login button {
+    background-color: #FBBC05;
+    border-radius: 58px;
+    border: none;
+    outline: none;
+    padding: 20px 60px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}

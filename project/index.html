@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="loginBox">
+        <img class="user" src="http://icons.iconarchive.com/icons/hopstarter/face-avatars/128/Male-Face-O1-icon.png">
+        <h2>Log In Here</h2>
+        <form>
+          <p>Email</p>
+          <input type="email" name="email" placeholder="Enter Email" required>
+          <p>Password</p>
+          <input type="password" name="password" placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+          <input type="submit" name="sign-in" value="Sign In">
+          <a href="#">Forget Password</a>
+        </form>
+      </div>
+</body>
+</html>

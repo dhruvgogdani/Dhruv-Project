@@ -1,0 +1,53 @@
+/* Default styles */
+.Testimonial {
+    background-image: url(../assets/slad-img-3cb34664.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial_col {
+    box-shadow: 0 -1px 50px 7px #c3c3c340;
+    border-radius: 0 30px;
+    padding: 1.5rem 2rem;
+}
+
+.testimonial_col img {
+    width: 20%;
+    border-radius: 100%;
+}
+
+.testimonial_col p {
+    font-weight: 500;
+    font-size: .95rem;
+    padding: 0 2rem;
+}
+
+.testimonial_col i {
+    color: var(--primary-color);
+    padding: 0 0.25rem;
+}
+
+.pt-3 {
+    padding-top: 1rem!important;
+}
+
+/* Responsive styles */
+@media (max-width: 991.98px) { /* Tablet and below */
+    .testimonial_col img {
+        width: 30%;
+    }
+}
+
+@media (max-width: 767.98px) { /* Mobile */
+    .testimonial_col {
+        padding: 1.5rem;
+    }
+
+    .testimonial_col img {
+        width: 40%;
+    }
+
+    .testimonial_col p {
+        padding: 0;
+    }
+}

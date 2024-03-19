@@ -1,0 +1,58 @@
+.p-2 {
+    padding: 0.5rem!important;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    box-shadow: 0 -1px 50px 7px #c3c3c340;
+    border-radius: 50px;
+}
+.input-group input {
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: 0;
+    border: none;
+}
+
+.input-group button {
+    padding: 1.2rem 4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: var(--primary-color);
+    color: #fff;
+    outline: 0;
+    border: none;
+    border-radius: 50px!important;
+}
+.input-group button:hover {
+    background: #000;
+    transition: .35s linear;
+}
+@media (max-width: 992px) {
+    /* Styles for tablet  */
+    .input-group input {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .input-group button {
+        padding: 1rem 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Styles for mobile */
+    .main-h2 {
+        font-size: 1.5rem;
+    }
+    .input-group input {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+    .input-group button {
+        padding: 0.8rem 2.5rem;
+    }
+}
